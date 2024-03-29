@@ -1,1 +1,2 @@
 # hibernate_test
+Friday morning for our comprehensive class on Hibernate Testing. This class is designed for those who want to delve deep into the world of CRUD (Create, Read, Update, Delete) operations testing using Hibernate, a popular Java-based framework. We’ll cover everything from setting up your testing environment, writing effective test cases, to best practices for ensuring your CRUD operations are functioning as expected. Don’t miss this opportunity to enhance your skills and become proficient in Hibernate Testing
