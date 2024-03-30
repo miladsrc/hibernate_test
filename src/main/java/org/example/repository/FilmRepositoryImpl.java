@@ -15,9 +15,10 @@ public class FilmRepositoryImpl {
 
     public Film save(Film film) {
         Session session = getInstance ().openSession ();
-        session.beginTransaction ();
+        Transaction tx = session.beginTransaction ();
         Film merge = session.merge ( film );
         session.close ();
+        tx.commit ();
         return merge;
     }
 
